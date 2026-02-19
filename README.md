@@ -33,8 +33,8 @@ This significantly reduces computational cost while maintaining predictive accur
 
 ### Recommended Environment
 - Python 3.8 (recommended for EnergyPlus compatibility)
-- model.h5, scaler.pkl # Trained model with the scaler to inverse normalization
-- initial_data.csv # Data for the last 24 hours before your first time-step simulation or before your "prediction horizon" for lagged features.
+- model.h5, scaler.pkl # Trained model with the scaler to inverse normalization - should be inside /python folder
+- initial_data.csv # Data for the last 24 hours before your first time-step simulation or before your "prediction horizon" for lagged features - should be inside /python folder
 
 ### 🔧 Essential Libraries
 
